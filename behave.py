@@ -9,3 +9,4 @@ import os
 
 os.system("cd feature")
 os.system("behave")
+print("teste iniciado")
