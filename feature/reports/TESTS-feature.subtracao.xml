@@ -1,0 +1,52 @@
+<testsuite errors="0" failures="0" hostname="koliveirabpw1001" name="feature.subtracao.Subtracao" skipped="1" tests="3" time="8.586459" timestamp="2018-04-27T11:44:14.843986"><testcase classname="feature.subtracao.Subtracao" name="Subtracao com dois numeros -- @1.1 " status="passed" time="4.341003"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @CenarioSub1
+  Scenario Outline: Subtracao com dois numeros -- @1.1 
+    Given Inserimos o valor 1 ... passed in 1.070s
+    When quando temos a subtracao do primeiro com 4 ... passed in 1.980s
+    Then teremos o resultado:8 ... passed in 1.291s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+-
+False
+
+]]>
+</system-out></testcase><testcase classname="feature.subtracao.Subtracao" name="Subtracao com dois numeros -- @1.2 " status="passed" time="4.245456"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @CenarioSub1
+  Scenario Outline: Subtracao com dois numeros -- @1.2 
+    Given Inserimos o valor 1 ... passed in 1.066s
+    When quando temos a subtracao do primeiro com 2 ... passed in 1.983s
+    Then teremos o resultado:90 ... passed in 1.197s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+-
+False
+
+]]>
+</system-out></testcase><testcase classname="feature.subtracao.Subtracao" name="Subtracao com tres numeros" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+
+  @CenariosSub2
+  Scenario: Subtracao com tres numeros
+    Given Zeramos o nosso contador ... skipped in 0.000s
+    When Inserimos o primeiro valor ... skipped in 0.000s
+    And Somamos o segundo Valor ... skipped in 0.000s
+    Then Temos o valor de : ... skipped in 0.000s
+    But e diferente de zero ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
