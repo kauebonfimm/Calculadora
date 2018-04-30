@@ -1,37 +1,35 @@
-<testsuite errors="0" failures="0" hostname="koliveirabpw1001" name="feature.soma.Soma" skipped="1" tests="3" time="8.865883" timestamp="2018-04-27T11:44:00.630514"><testcase classname="feature.soma.Soma" name="Soma com dois numeros -- @1.1 " status="passed" time="4.542654"><system-out>
+<testsuite errors="0" failures="0" hostname="koliveirabpw1001" name="feature.soma.Soma" skipped="1" tests="3" time="14.093155" timestamp="2018-04-29T12:03:43.217425"><testcase classname="feature.soma.Soma" name="Soma com dois numeros -- @1.1 " status="passed" time="8.723519"><system-out>
 <![CDATA[
 @scenario.begin
 
   @CenarioSoma1
   Scenario Outline: Soma com dois numeros -- @1.1 
-    Given Inserimos o valor 1 ... passed in 1.244s
-    When quando temos a soma do primeiro com 2 ... passed in 2.112s
-    Then teremos o resultado:8 ... passed in 1.186s
+    Given Inserimos o valor 1 ... passed in 4.426s
+    When quando temos a soma do primeiro com 2 ... passed in 2.714s
+    Then teremos o resultado:8 ... passed in 1.583s
 
 @scenario.end
 --------------------------------------------------------------------------------
 
 Captured stdout:
 +
-False
 
 ]]>
-</system-out></testcase><testcase classname="feature.soma.Soma" name="Soma com dois numeros -- @1.2 " status="passed" time="4.323229"><system-out>
+</system-out></testcase><testcase classname="feature.soma.Soma" name="Soma com dois numeros -- @1.2 " status="passed" time="5.369636"><system-out>
 <![CDATA[
 @scenario.begin
 
   @CenarioSoma1
   Scenario Outline: Soma com dois numeros -- @1.2 
-    Given Inserimos o valor 1 ... passed in 1.092s
-    When quando temos a soma do primeiro com 3 ... passed in 2.045s
-    Then teremos o resultado:4 ... passed in 1.186s
+    Given Inserimos o valor 1 ... passed in 1.378s
+    When quando temos a soma do primeiro com 3 ... passed in 2.446s
+    Then teremos o resultado:4 ... passed in 1.546s
 
 @scenario.end
 --------------------------------------------------------------------------------
 
 Captured stdout:
 +
-True
 
 ]]>
 </system-out></testcase><testcase classname="feature.soma.Soma" name="Soma com tres numeros" status="skipped" time="0"><skipped /><system-out>

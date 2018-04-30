@@ -1,37 +1,35 @@
-<testsuite errors="0" failures="0" hostname="koliveirabpw1001" name="feature.subtracao.Subtracao" skipped="1" tests="3" time="8.586459" timestamp="2018-04-27T11:44:14.843986"><testcase classname="feature.subtracao.Subtracao" name="Subtracao com dois numeros -- @1.1 " status="passed" time="4.341003"><system-out>
+<testsuite errors="0" failures="0" hostname="koliveirabpw1001" name="feature.subtracao.Subtracao" skipped="1" tests="3" time="10.282801" timestamp="2018-04-29T12:03:59.450181"><testcase classname="feature.subtracao.Subtracao" name="Subtracao com dois numeros -- @1.1 " status="passed" time="5.185151"><system-out>
 <![CDATA[
 @scenario.begin
 
   @CenarioSub1
   Scenario Outline: Subtracao com dois numeros -- @1.1 
-    Given Inserimos o valor 1 ... passed in 1.070s
-    When quando temos a subtracao do primeiro com 4 ... passed in 1.980s
-    Then teremos o resultado:8 ... passed in 1.291s
+    Given Inserimos o valor 1 ... passed in 1.304s
+    When quando temos a subtracao do primeiro com 4 ... passed in 2.213s
+    Then teremos o resultado:8 ... passed in 1.668s
 
 @scenario.end
 --------------------------------------------------------------------------------
 
 Captured stdout:
 -
-False
 
 ]]>
-</system-out></testcase><testcase classname="feature.subtracao.Subtracao" name="Subtracao com dois numeros -- @1.2 " status="passed" time="4.245456"><system-out>
+</system-out></testcase><testcase classname="feature.subtracao.Subtracao" name="Subtracao com dois numeros -- @1.2 " status="passed" time="5.09765"><system-out>
 <![CDATA[
 @scenario.begin
 
   @CenarioSub1
   Scenario Outline: Subtracao com dois numeros -- @1.2 
-    Given Inserimos o valor 1 ... passed in 1.066s
-    When quando temos a subtracao do primeiro com 2 ... passed in 1.983s
-    Then teremos o resultado:90 ... passed in 1.197s
+    Given Inserimos o valor 1 ... passed in 1.345s
+    When quando temos a subtracao do primeiro com 2 ... passed in 2.379s
+    Then teremos o resultado:90 ... passed in 1.374s
 
 @scenario.end
 --------------------------------------------------------------------------------
 
 Captured stdout:
 -
-False
 
 ]]>
 </system-out></testcase><testcase classname="feature.subtracao.Subtracao" name="Subtracao com tres numeros" status="skipped" time="0"><skipped /><system-out>
