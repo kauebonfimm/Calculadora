@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Test-20180506123257" skipped="1" tests="2" time="12.712" timestamp="2018-05-06T12:33:10">
+	<testcase classname="Test" name="testSoma" time="12.712" timestamp="2018-05-06T12:33:10"/>
+	<testcase classname="Test" name="testSubtracao" time="0.000" timestamp="2018-05-06T12:33:10">
+		<skipped message="demonstraca0 de skip" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

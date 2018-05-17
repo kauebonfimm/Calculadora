@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 Created on 26 de abr de 2018
 
@@ -8,6 +9,11 @@ from time import sleep
 
 @given("Inserimos o valor {primeiro}")
 def inserir_valor(context,primeiro):
+    sleep(2)
+    context.calc.clica_elemento_lista("WindowsForms10.BUTTON.app.0.141b42a_r9_ad1","class",1)
+    sleep(2)
+    context.calc.clica_elemento_lista("WindowsForms10.BUTTON.app.0.141b42a_r9_ad1","class",2)
+    sleep(2)
     context.calc.clica(primeiro,tipo="name")
     
     
@@ -27,7 +33,8 @@ def resultado(context,resultado):
 @given("Zeramos o nosso contador")
 @when("Inserimos o primeiro valor")
 @when("Somamos o segundo Valor")
-@then("Temos o valor de :")
+
+@then("Temos o valór de :")
 @then("e diferente de zero")
 def step(context):
     pass

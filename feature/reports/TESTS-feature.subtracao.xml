@@ -1,12 +1,12 @@
-<testsuite errors="0" failures="0" hostname="koliveirabpw1001" name="feature.subtracao.Subtracao" skipped="1" tests="3" time="28.879127" timestamp="2018-04-30T13:20:51.328701"><testcase classname="feature.subtracao.Subtracao" name="Subtracao com dois numeros -- @1.1 " status="passed" time="14.438979"><system-out>
+<testsuite errors="0" failures="0" hostname="koliveirabpw1001" name="feature.subtracao.Subtracao" skipped="1" tests="3" time="1010.804551" timestamp="2018-05-17T15:51:24.425389"><testcase classname="feature.subtracao.Subtracao" name="Subtracao com dois numeros -- @1.1 " status="passed" time="492.697114"><system-out>
 <![CDATA[
 @scenario.begin
 
   @CenarioSub1
-  Scenario Outline: Subtracao com dois numeros -- @1.1 
-    Given Inserimos o valor 1 ... passed in 3.079s
-    When quando temos a subtracao do primeiro com 4 ... passed in 6.016s
-    Then teremos o resultado:8 ... passed in 5.344s
+  Esquema do Cenario: Subtracao com dois numeros -- @1.1 
+    Dado Inserimos o valor 1 ... passed in 487.369s
+    Quando quando temos a subtracao do primeiro com 4 ... passed in 3.062s
+    Entao teremos o resultado:8 ... passed in 2.266s
 
 @scenario.end
 --------------------------------------------------------------------------------
@@ -15,15 +15,15 @@ Captured stdout:
 -
 
 ]]>
-</system-out></testcase><testcase classname="feature.subtracao.Subtracao" name="Subtracao com dois numeros -- @1.2 " status="passed" time="14.440148"><system-out>
+</system-out></testcase><testcase classname="feature.subtracao.Subtracao" name="Subtracao com dois numeros -- @1.2 " status="passed" time="518.107437"><system-out>
 <![CDATA[
 @scenario.begin
 
   @CenarioSub1
-  Scenario Outline: Subtracao com dois numeros -- @1.2 
-    Given Inserimos o valor 1 ... passed in 3.119s
-    When quando temos a subtracao do primeiro com 2 ... passed in 6.078s
-    Then teremos o resultado:90 ... passed in 5.244s
+  Esquema do Cenario: Subtracao com dois numeros -- @1.2 
+    Dado Inserimos o valor 1 ... passed in 513.649s
+    Quando quando temos a subtracao do primeiro com 2 ... passed in 2.650s
+    Entao teremos o resultado:90 ... passed in 1.808s
 
 @scenario.end
 --------------------------------------------------------------------------------
@@ -37,12 +37,12 @@ Captured stdout:
 @scenario.begin
 
   @CenariosSub2
-  Scenario: Subtracao com tres numeros
-    Given Zeramos o nosso contador ... skipped in 0.000s
-    When Inserimos o primeiro valor ... skipped in 0.000s
-    And Somamos o segundo Valor ... skipped in 0.000s
-    Then Temos o valor de : ... skipped in 0.000s
-    But e diferente de zero ... skipped in 0.000s
+  Cenario: Subtracao com tres numeros
+    Dado Zeramos o nosso contador ... skipped in 0.000s
+    Quando Inserimos o primeiro valor ... skipped in 0.000s
+    E Somamos o segundo Valor ... skipped in 0.000s
+    Entao Temos o valór de : ... skipped in 0.000s
+    Mas e diferente de zero ... skipped in 0.000s
 
 @scenario.end
 --------------------------------------------------------------------------------

@@ -1,448 +1,199 @@
 [
+{
+  "elements": [
     {
-        "elements": [
-            {
-                "keyword": "Scenario Outline",
-                "name": "Soma com dois numeros -- @1.1 ",
-                "steps": [
-                    {
-                        "keyword": "Given",
-                        "match": {
-                            "arguments": [
-                                {
-                                    "name": "primeiro",
-                                    "value": "1"
-                                }
-                            ],
-                            "location": "../steps/steps.py:9"
-                        },
-                        "name": "Inserimos o valor 1",
-                        "result": {
-                            "duration": 5056026220,
-                            "status": "passed"
-                        },
-                        "line": 4
-                    },
-                    {
-                        "keyword": "When",
-                        "match": {
-                            "arguments": [
-                                {
-                                    "name": "operador",
-                                    "value": "soma"
-                                },
-                                {
-                                    "name": "segundo",
-                                    "value": "2"
-                                }
-                            ],
-                            "location": "../steps/steps.py:14"
-                        },
-                        "name": "quando temos a soma do primeiro com 2",
-                        "result": {
-                            "duration": 6375579357,
-                            "status": "passed"
-                        },
-                        "line": 5
-                    },
-                    {
-                        "keyword": "Then",
-                        "match": {
-                            "arguments": [
-                                {
-                                    "name": "resultado",
-                                    "value": "8"
-                                }
-                            ],
-                            "location": "../steps/steps.py:20"
-                        },
-                        "name": "teremos o resultado:8",
-                        "result": {
-                            "duration": 5386825323,
-                            "status": "passed"
-                        },
-                        "line": 6
-                    }
-                ],
-                "tags": [
-                    {
-                        "name": "@CenarioSoma1",
-                        "line": 8
-                    }
-                ],
-                "type": "scenario",
-                "line": 9,
-                "uri": "soma.feature",
-                "description": "",
-                "id": 1
-            },
-            {
-                "keyword": "Scenario Outline",
-                "name": "Soma com dois numeros -- @1.2 ",
-                "steps": [
-                    {
-                        "keyword": "Given",
-                        "match": {
-                            "arguments": [
-                                {
-                                    "name": "primeiro",
-                                    "value": "1"
-                                }
-                            ],
-                            "location": "../steps/steps.py:9"
-                        },
-                        "name": "Inserimos o valor 1",
-                        "result": {
-                            "duration": 3220956802,
-                            "status": "passed"
-                        },
-                        "line": 4
-                    },
-                    {
-                        "keyword": "When",
-                        "match": {
-                            "arguments": [
-                                {
-                                    "name": "operador",
-                                    "value": "soma"
-                                },
-                                {
-                                    "name": "segundo",
-                                    "value": "3"
-                                }
-                            ],
-                            "location": "../steps/steps.py:14"
-                        },
-                        "name": "quando temos a soma do primeiro com 3",
-                        "result": {
-                            "duration": 6007155895,
-                            "status": "passed"
-                        },
-                        "line": 5
-                    },
-                    {
-                        "keyword": "Then",
-                        "match": {
-                            "arguments": [
-                                {
-                                    "name": "resultado",
-                                    "value": "4"
-                                }
-                            ],
-                            "location": "../steps/steps.py:20"
-                        },
-                        "name": "teremos o resultado:4",
-                        "result": {
-                            "duration": 5268089294,
-                            "status": "passed"
-                        },
-                        "line": 6
-                    }
-                ],
-                "tags": [
-                    {
-                        "name": "@CenarioSoma1",
-                        "line": 9
-                    }
-                ],
-                "type": "scenario",
-                "line": 10,
-                "uri": "soma.feature",
-                "description": "",
-                "id": 2
-            },
-            {
-                "keyword": "Scenario",
-                "name": "Soma com tres numeros",
-                "steps": [
-                    {
-                        "keyword": "Given",
-                        "name": "Zeramos o nosso contador",
-                        "line": 15,
-                        "result": {
-                            "status": "skipped",
-                            "duration": 0
-                        }
-                    },
-                    {
-                        "keyword": "When",
-                        "name": "Inserimos o primeiro valor",
-                        "line": 16,
-                        "result": {
-                            "status": "skipped",
-                            "duration": 0
-                        }
-                    },
-                    {
-                        "keyword": "And",
-                        "name": "Somamos o segundo Valor",
-                        "line": 17,
-                        "result": {
-                            "status": "skipped",
-                            "duration": 0
-                        }
-                    },
-                    {
-                        "keyword": "Then",
-                        "name": "Temos o valor de :",
-                        "line": 18,
-                        "result": {
-                            "status": "skipped",
-                            "duration": 0
-                        }
-                    },
-                    {
-                        "keyword": "But",
-                        "name": "e diferente de zero",
-                        "line": 19,
-                        "result": {
-                            "status": "skipped",
-                            "duration": 0
-                        }
-                    }
-                ],
-                "tags": [
-                    {
-                        "name": "@CenarioSoma2",
-                        "line": 13
-                    }
-                ],
-                "type": "scenario",
-                "line": 14,
-                "uri": "soma.feature",
-                "description": "",
-                "id": 3
-            }
-        ],
-        "keyword": "Feature",
-        "name": "Soma",
-        "tags": [],
-        "line": 1,
-        "uri": "soma.feature",
-        "description": "",
-        "id": 0
+      "keyword": "Esquema do Cenario",
+      "location": "subtracao.feature:10",
+      "name": "Subtracao com dois numeros -- @1.1 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Dado",
+          "location": "subtracao.feature:5",
+          "match": {
+            "arguments": [
+              {
+                "name": "primeiro",
+                "value": "1"
+              }
+            ],
+            "location": "../steps/steps.py:10"
+          },
+          "name": "Inserimos o valor 1",
+          "result": {
+            "duration": 487.3692352771759,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Quando",
+          "location": "subtracao.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "operador",
+                "value": "subtracao"
+              },
+              {
+                "name": "segundo",
+                "value": "4"
+              }
+            ],
+            "location": "../steps/steps.py:20"
+          },
+          "name": "quando temos a subtracao do primeiro com 4",
+          "result": {
+            "duration": 3.061943292617798,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Entao",
+          "location": "subtracao.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "resultado",
+                "value": "8"
+              }
+            ],
+            "location": "../steps/steps.py:26"
+          },
+          "name": "teremos o resultado:8",
+          "result": {
+            "duration": 2.265935182571411,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "CenarioSub1"
+      ],
+      "type": "scenario"
     },
     {
-        "elements": [
-            {
-                "keyword": "Scenario Outline",
-                "name": "Subtracao com dois numeros -- @1.1 ",
-                "steps": [
-                    {
-                        "keyword": "Given",
-                        "match": {
-                            "arguments": [
-                                {
-                                    "name": "primeiro",
-                                    "value": "1"
-                                }
-                            ],
-                            "location": "../steps/steps.py:9"
-                        },
-                        "name": "Inserimos o valor 1",
-                        "result": {
-                            "duration": 3079137802,
-                            "status": "passed"
-                        },
-                        "line": 4
-                    },
-                    {
-                        "keyword": "When",
-                        "match": {
-                            "arguments": [
-                                {
-                                    "name": "operador",
-                                    "value": "subtracao"
-                                },
-                                {
-                                    "name": "segundo",
-                                    "value": "4"
-                                }
-                            ],
-                            "location": "../steps/steps.py:14"
-                        },
-                        "name": "quando temos a subtracao do primeiro com 4",
-                        "result": {
-                            "duration": 6015829563,
-                            "status": "passed"
-                        },
-                        "line": 5
-                    },
-                    {
-                        "keyword": "Then",
-                        "match": {
-                            "arguments": [
-                                {
-                                    "name": "resultado",
-                                    "value": "8"
-                                }
-                            ],
-                            "location": "../steps/steps.py:20"
-                        },
-                        "name": "teremos o resultado:8",
-                        "result": {
-                            "duration": 5344011545,
-                            "status": "passed"
-                        },
-                        "line": 6
-                    }
-                ],
-                "tags": [
-                    {
-                        "name": "@CenarioSub1",
-                        "line": 8
-                    }
-                ],
-                "type": "scenario",
-                "line": 9,
-                "uri": "subtracao.feature",
-                "description": "",
-                "id": 2
-            },
-            {
-                "keyword": "Scenario Outline",
-                "name": "Subtracao com dois numeros -- @1.2 ",
-                "steps": [
-                    {
-                        "keyword": "Given",
-                        "match": {
-                            "arguments": [
-                                {
-                                    "name": "primeiro",
-                                    "value": "1"
-                                }
-                            ],
-                            "location": "../steps/steps.py:9"
-                        },
-                        "name": "Inserimos o valor 1",
-                        "result": {
-                            "duration": 3118510484,
-                            "status": "passed"
-                        },
-                        "line": 4
-                    },
-                    {
-                        "keyword": "When",
-                        "match": {
-                            "arguments": [
-                                {
-                                    "name": "operador",
-                                    "value": "subtracao"
-                                },
-                                {
-                                    "name": "segundo",
-                                    "value": "2"
-                                }
-                            ],
-                            "location": "../steps/steps.py:14"
-                        },
-                        "name": "quando temos a subtracao do primeiro com 2",
-                        "result": {
-                            "duration": 6077677488,
-                            "status": "passed"
-                        },
-                        "line": 5
-                    },
-                    {
-                        "keyword": "Then",
-                        "match": {
-                            "arguments": [
-                                {
-                                    "name": "resultado",
-                                    "value": "90"
-                                }
-                            ],
-                            "location": "../steps/steps.py:20"
-                        },
-                        "name": "teremos o resultado:90",
-                        "result": {
-                            "duration": 5243959903,
-                            "status": "passed"
-                        },
-                        "line": 6
-                    }
-                ],
-                "tags": [
-                    {
-                        "name": "@CenarioSub1",
-                        "line": 9
-                    }
-                ],
-                "type": "scenario",
-                "line": 10,
-                "uri": "subtracao.feature",
-                "description": "",
-                "id": 3
-            },
-            {
-                "keyword": "Scenario",
-                "name": "Subtracao com tres numeros",
-                "steps": [
-                    {
-                        "keyword": "Given",
-                        "name": "Zeramos o nosso contador",
-                        "line": 15,
-                        "result": {
-                            "status": "skipped",
-                            "duration": 0
-                        }
-                    },
-                    {
-                        "keyword": "When",
-                        "name": "Inserimos o primeiro valor",
-                        "line": 16,
-                        "result": {
-                            "status": "skipped",
-                            "duration": 0
-                        }
-                    },
-                    {
-                        "keyword": "And",
-                        "name": "Somamos o segundo Valor",
-                        "line": 17,
-                        "result": {
-                            "status": "skipped",
-                            "duration": 0
-                        }
-                    },
-                    {
-                        "keyword": "Then",
-                        "name": "Temos o valor de :",
-                        "line": 18,
-                        "result": {
-                            "status": "skipped",
-                            "duration": 0
-                        }
-                    },
-                    {
-                        "keyword": "But",
-                        "name": "e diferente de zero",
-                        "line": 19,
-                        "result": {
-                            "status": "skipped",
-                            "duration": 0
-                        }
-                    }
-                ],
-                "tags": [
-                    {
-                        "name": "@CenariosSub2",
-                        "line": 13
-                    }
-                ],
-                "type": "scenario",
-                "line": 14,
-                "uri": "subtracao.feature",
-                "description": "",
-                "id": 4
-            }
-        ],
-        "keyword": "Feature",
-        "name": "Subtracao",
-        "tags": [],
-        "line": 1,
-        "uri": "subtracao.feature",
-        "description": "",
-        "id": 1
+      "keyword": "Esquema do Cenario",
+      "location": "subtracao.feature:11",
+      "name": "Subtracao com dois numeros -- @1.2 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Dado",
+          "location": "subtracao.feature:5",
+          "match": {
+            "arguments": [
+              {
+                "name": "primeiro",
+                "value": "1"
+              }
+            ],
+            "location": "../steps/steps.py:10"
+          },
+          "name": "Inserimos o valor 1",
+          "result": {
+            "duration": 513.6489098072052,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Quando",
+          "location": "subtracao.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "operador",
+                "value": "subtracao"
+              },
+              {
+                "name": "segundo",
+                "value": "2"
+              }
+            ],
+            "location": "../steps/steps.py:20"
+          },
+          "name": "quando temos a subtracao do primeiro com 2",
+          "result": {
+            "duration": 2.650125026702881,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Entao",
+          "location": "subtracao.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "resultado",
+                "value": "90"
+              }
+            ],
+            "location": "../steps/steps.py:26"
+          },
+          "name": "teremos o resultado:90",
+          "result": {
+            "duration": 1.8084022998809814,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "CenarioSub1"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Cenario",
+      "location": "subtracao.feature:15",
+      "name": "Subtracao com tres numeros",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Dado",
+          "location": "subtracao.feature:16",
+          "name": "Zeramos o nosso contador",
+          "step_type": "given"
+        },
+        {
+          "keyword": "Quando",
+          "location": "subtracao.feature:17",
+          "name": "Inserimos o primeiro valor",
+          "step_type": "when"
+        },
+        {
+          "keyword": "E",
+          "location": "subtracao.feature:18",
+          "name": "Somamos o segundo Valor",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Entao",
+          "location": "subtracao.feature:19",
+          "name": "Temos o val\u00f3r de :",
+          "step_type": "then"
+        },
+        {
+          "keyword": "Mas",
+          "location": "subtracao.feature:20",
+          "name": "e diferente de zero",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "CenariosSub2"
+      ],
+      "type": "scenario"
     }
+  ],
+  "keyword": "Funcionalidade",
+  "location": "subtracao.feature:2",
+  "name": "Subtracao",
+  "status": "passed",
+  "tags": []
+}
 ]

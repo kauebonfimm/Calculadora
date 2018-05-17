@@ -4,17 +4,17 @@ Created on 26 de abr de 2018
 @author: koliveirab
 '''
 
-from PyDeskAutomator import Desk
+from Pyautomators.Pydeskautomator import Desk
 from behave import *
-import Pyambautomator
+from Pyautomators import Pyambautomator
 from time import sleep
 from steps.models.operations import Operacao
 from libss.metodos import Strings
-import Pyassertautomator
+from Pyautomators import Pyassertautomator
 
 def before_all(context):
-    context.path=Pyambautomator.caminho_anterior()
-    context.calc=Desk(caminho_driver=context.path+"/drivers/", aplicacao=context.path+"/drivers/Calculator.exe")
+    context.path=Pyambautomator.caminho_ate_pasta()
+    context.calc=Desk(caminho_driver=context.path+"drivers/", aplicacao=context.path+"drivers/Calculator.exe")
     context.operador=Operacao()
     context.asserts=Pyassertautomator
     
