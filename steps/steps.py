@@ -10,9 +10,9 @@ from time import sleep
 @given("Inserimos o valor {primeiro}")
 def inserir_valor(context,primeiro):
     sleep(2)
-    context.calc.clica_elemento_lista("WindowsForms10.BUTTON.app.0.141b42a_r9_ad1","class",1)
+    context.calc.clica("1","name")
     sleep(2)
-    context.calc.clica_elemento_lista("WindowsForms10.BUTTON.app.0.141b42a_r9_ad1","class",2)
+    context.calc.clica("2","name")
     sleep(2)
     context.calc.clica(primeiro,tipo="name")
     
