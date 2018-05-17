@@ -16,7 +16,7 @@ Funcionalidade: Soma
   	Dado Zeramos o nosso contador
   	Quando Inserimos o primeiro valor
   	E Somamos o segundo Valor
-  	Entao Temos o valor de :
+  	Entao Temos o valór de :
   	Mas e diferente de zero
   	
 
