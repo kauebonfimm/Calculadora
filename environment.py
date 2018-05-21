@@ -10,26 +10,31 @@ from Pyautomators import Pyambautomator
 from time import sleep
 from steps.models.operations import Operacao
 from libss.metodos import Strings
-from Pyautomators import Pyassertautomator
+from Pyautomators import Pyassertautomator,Pydocautomator
 
 def before_all(context):
     context.path=Pyambautomator.caminho_ate_pasta()
     context.calc=Desk(caminho_driver=context.path+"drivers/", aplicacao=context.path+"drivers/Calculator.exe")
     context.operador=Operacao()
     context.asserts=Pyassertautomator
-    
+    context.doc=Pydocautomator
     
 def before_features(context,feature):
-    print()
+    pass
 
 def before_scenario(context,scenario):
-    print()
-
-def before_steps(context,step):
-    print(step.name)
-
-def after_steps(context,step):
     pass
+    
+    
+def before_step(context,step):
+    context.seqP=" "
+    context.sleep(3)
+    
+    
+def after_step(context,step):
+    context.prints="{}{}".format(str(context.scenario).replace("<",' ').replace(">",' ').replace('"',' '),str(step.name).replace("<",' ').replace(">",' ').replace('"',' '))
+    context.doc.printarTela(context.path+"docs/"+context.prints+".png")
+    
 
 def after_scenario(context,scenario):
     sleep(2)

@@ -12,8 +12,6 @@ def inserir_valor(context,primeiro):
     sleep(2)
     context.calc.clica("1","name")
     sleep(2)
-    context.calc.clica("2","name")
-    sleep(2)
     context.calc.clica(primeiro,tipo="name")
     
     
@@ -33,7 +31,6 @@ def resultado(context,resultado):
 @given("Zeramos o nosso contador")
 @when("Inserimos o primeiro valor")
 @when("Somamos o segundo Valor")
-
 @then("Temos o valór de :")
 @then("e diferente de zero")
 def step(context):
