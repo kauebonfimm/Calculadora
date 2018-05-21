@@ -28,7 +28,7 @@ def before_scenario(context,scenario):
     
 def before_step(context,step):
     context.seqP=" "
-    context.sleep(3)
+    sleep(3)
     
     
 def after_step(context,step):
