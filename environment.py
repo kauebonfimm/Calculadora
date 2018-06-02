@@ -1,7 +1,7 @@
 '''
 
 
-@author: koliveirab
+@author: kauebonfim
 '''
 
 from Pyautomators.Pydeskautomator import Desk
